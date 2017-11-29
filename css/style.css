@@ -1,0 +1,460 @@
+/*
+** name : issa AL-Sofer
+** email : issa.sofer@gmail.com
+** website : CodeForIraq
+*/
+
+header{
+     position: relative;
+     min-height: 637px;
+     overflow: hidden;
+}
+
+/** start navbar **/
+nav{
+    z-index: 9999;
+
+}
+
+.navbar .navbar-brand{
+    font-size: 30px
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-collapse,
+.navbar .navbar-nav .nav-link{
+    color: #fff !important;
+}
+
+.navbar-light .navbar-toggler{
+     background-color: #fff;
+     cursor: pointer;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+     color: #fff !important;
+     border-bottom: 2px solid #3dca0f;
+}
+
+/** end navbar **/
+
+
+/** start header **/
+
+.header{
+     background: url("../image/March-12-Letter.jpg") no-repeat;
+     background-size: cover;
+     z-index: 1;
+     height: 637px;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.header .content{
+    z-index: 7777
+}
+
+.header .content h1,
+.header .content p{
+    color: #fff;
+}
+
+.header .content h1 span{
+    color: #3dca0f;
+}
+
+.header .content p{
+     margin-bottom: 50px
+}
+
+.header .content a{
+    color: #3dca0f;
+    padding: 10px 15px;
+    border: 1px solid #3dca0f;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.header .content a:hover{
+    text-decoration: none;
+    background-color: #3dca0f;
+    color: #fff
+}
+.header .overlay{
+     position: absolute;
+     background-color: rgba(107, 107, 107, 0.39);
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+
+/** end header **/
+
+/** start about **/
+
+.about{
+    background-color: #f7f3f3;
+    padding-top: 80px
+}
+.about h2{
+    color: #7c7575;
+    padding: 20px 0;
+    position: relative;
+}
+
+.about h2:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 75px;
+    border-bottom: 2px solid #3dca0f;
+    bottom: 0;
+}
+
+.about .content{
+    margin: 60px 0;
+}
+
+.about .content h4{
+    color: #7c7575;
+    padding: 15px 0;
+    position: relative;
+}
+
+.about .content h4:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    border-bottom: 2px solid #cbcccb;
+    bottom: 0;
+}
+
+.about .content p{
+    margin-top: 30px
+}
+
+/** end about **/
+
+/** strat service **/
+
+.services{
+    padding-top: 80px
+}
+
+.services h2{
+    padding: 20px 0;
+    position: relative;
+}
+
+.services h2:before,
+.services .service h4:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    border-bottom: 2px solid #3dca0f;
+    bottom: 0;
+}
+
+.services .service{
+    margin: 60px 0;
+}
+
+.services .service i{
+     color: #3dca0f;
+     font-size: 40px;
+}
+
+.services .service h4{
+     padding: 20px 0;
+     position: relative;
+}
+
+.services .service h4:before{
+     border-bottom: 1px solid #3dca0f;
+}
+
+.services .service .webdesign:before{
+     width: 130px;
+}
+
+.services .service .app:before{
+     width: 198px;
+}
+
+.services .service .analystics:before,
+.services .service .marketing:before{
+     width: 108px;
+}
+
+.services .service .eCommerce:before{
+     width: 129px;
+}
+
+.services .service .content:before{
+     width: 236px;
+}
+
+.services .service .branding:before{
+     width: 100px;
+}
+
+.services .service .video:before{
+     width: 230px;
+}
+
+.services .service p{
+     font-size: 14px
+}
+
+@media (max-width: 575px) {
+     .services .service{
+          margin: 30px 0 30px 0;
+     }
+     .services .service p{
+          margin-top: 20px
+     }
+}
+
+/** end service **/
+
+/** start portfolio **/
+.portfolio{
+     background-color: #f7f3f3;
+     padding-top: 80px
+}
+
+.portfolio h2{
+    padding: 20px 0;
+    position: relative;
+    color: #7c7575;
+}
+
+.portfolio h2:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    border-bottom: 2px solid #3dca0f;
+    bottom: 0;
+}
+
+.portfolio .port-link{
+     padding: 30px 0;
+}
+
+.portfolio .port-link ul li{
+     display: inline-block;
+     padding: 10px 5px;
+     margin: 10px 5px;
+     color: #7c7575;
+}
+
+.portfolio .port-link ul li.active{
+     border-bottom: 1px solid #3dca0f;
+}
+
+.portfolio .port-link ul li:hover{
+     border-bottom: 1px solid #3dca0f;
+     cursor: pointer;
+}
+
+.port-work img{
+     width: 100%;
+     height: 200px;
+     margin-bottom: 20px;
+}
+/** end portfolio **/
+
+/** start team **/
+.team {
+     padding-top: 80px;
+}
+
+.team h2{
+    padding: 20px 0;
+    position: relative;
+}
+
+.team h2:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    border-bottom: 2px solid #3dca0f;
+    bottom: 0;
+}
+
+.team .members-team{
+     padding-bottom: 30px;
+}
+
+.team .img-person{
+     position: relative;
+     margin: 20px 0;
+     padding: 30px 0;
+}
+
+.team .img-person:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 122px;
+    border-bottom: 1px solid #3dca0f;
+    bottom: 0;
+}
+
+.team img{
+     width: 100%;
+}
+
+@media (max-width: 335px) {
+     .col-pre-12{
+          max-width: 100%;
+          flex: none;
+          display: block;
+     }
+}
+/** end team **/
+
+/** start contact **/
+
+.contact-us{
+     padding-top: 80px;
+     background-color: #f7f3f3;
+}
+
+.contact-us h2{
+    padding: 20px 0;
+    position: relative;
+    color: #7c7575;
+}
+
+.contact-us h2:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    border-bottom: 2px solid #3dca0f;
+    bottom: 0;
+}
+
+.contact-us .contact{
+     padding: 50px 15px 120px;
+}
+
+.contact-us .contact h5{
+     color: #7c7575;
+}
+
+
+.contact-us .contact p{
+     padding-top: 30px;
+}
+
+.contact-us .contact p i{
+     width: 10%;
+     color: #3dca0f
+}
+
+.contact-us .contact p span{
+     width: 90%;
+     color: #777
+}
+
+.contact-us .contact .form{
+     padding-top: 30px
+}
+
+.contact-us .contact .form input{
+     width: 48%;
+     display: inline-block;
+     margin-bottom: 20px
+}
+
+.contact-us .contact .form .email{
+     margin-left: 2%
+}
+
+.contact-us .contact .form textarea{
+     height: 100px;
+}
+
+.contact-us .contact .form .send{
+     width: 140px;
+     height: 40px;
+     margin-top: 20px;
+     margin-left: 10px;
+     background: none;
+     border: 1px solid #3dca0f;
+     color: #3dca0f;
+     font-weight: 600;
+     transition: .4s;
+     -webkit-transition: .4s;
+     -ms-transition: .4s;
+     -o-transition: .4s;
+}
+
+.contact-us .contact .form .send:hover{
+     cursor: pointer;
+     background-color: #3dca0f;
+     color: #333;
+}
+
+
+@media (max-width: 480px) {
+     .contact-us .contact .form input{
+          width: 100%;
+          display: block;
+     }
+     .contact-us .contact .form .email{
+          margin-left: 0;
+     }
+}
+/** end contact **/
+
+/** start footer **/
+
+.footer{
+     background: #333;
+     color: #fff;
+}
+
+.footer p{
+     margin-bottom: 0;
+     padding: 20px
+}
+
+.footer .company{
+     float: left;
+}
+
+.footer .member{
+     float: right;
+}
+
+@media (max-width: 480px){
+     .footer .company{
+          float: none;
+     }
+
+     .footer .member{
+          float: none;
+     }
+}
+
+/** end footer **/
