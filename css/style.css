@@ -131,9 +131,6 @@ nav{
 
 .about .content{
     margin: 60px 0;
-    text-align:center;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .about .content h4{
