@@ -3,6 +3,7 @@
 ** email : issa.sofer@gmail.com
 ** website : CodeForIraq
 */
+/* component */
 
 header{
      position: relative;
@@ -116,16 +117,23 @@ nav{
 }
 
 .about h2:before{
+     width: 75px;
+}
+
+.about h2:before,
+.about .content h4:before{
     content: "";
     position: absolute;
     display: block;
-    width: 75px;
     border-bottom: 2px solid #3dca0f;
     bottom: 0;
 }
 
 .about .content{
     margin: 60px 0;
+    text-align:center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .about .content h4{
@@ -135,12 +143,7 @@ nav{
 }
 
 .about .content h4:before{
-    content: "";
-    position: absolute;
-    display: block;
     width: 90px;
-    border-bottom: 2px solid #cbcccb;
-    bottom: 0;
 }
 
 .about .content p{
